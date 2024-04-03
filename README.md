@@ -133,7 +133,18 @@ Para dar continuidade, é preciso acessar o terminal da AWS, chamado CloudShell.
 Também é preciso fazer a configuração automática da montagem, para que não seja necessário montar novamente:<br>
 1. Coloque o comando <code>sudo nano /etc/ftsab</code>, assim abrindo o arquivo para editar;<br>
 2. Dentro, coloque a linha: <code>[ID do sismeta de arquivos]:/ [caminho local/diretório] nfs4 defaults 0 0</code>;<br>
+<br>
+<div align="center"> 
+  
+![image](https://github.com/EdwardaOjopi/Projeto-AWS/assets/114951492/7e1e9354-5e59-4363-bfc0-3685d78e0350)
+</div>
+
 3. Para confirmar se está montado, utilize o comando <code>df -h</code>.<br>
+<br>
+<div align="center"> 
+  
+![image](https://github.com/EdwardaOjopi/Projeto-AWS/assets/114951492/646a0a71-1705-41d9-b648-9a6b972b5d05)
+</div>
 </ul>
 
 <ul>
@@ -203,9 +214,3 @@ Também é pedido para automatizar a execução do script a cada 5 minutos. Para
 ![image](https://github.com/EdwardaOjopi/Projeto-AWS/assets/114951492/68ccd201-af7c-49b4-8f05-6ca728c29134)
 </div>
 </ul>
-
-
-
-
-
-
