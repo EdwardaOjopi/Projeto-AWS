@@ -126,11 +126,11 @@ Para dar continuidade, é preciso acessar o terminal da AWS, chamado CloudShell.
 
 <ul>
 <li style="list-style-type: 🔔" ><h3>Configurar o NFS entregue </h3>  </li>;
-- Ao entrar na conexão da instância EC2, coloque o comando 'sudo su', que faz ganhar privilégios administrativos: <br>
-1. Use 'sudo yum update -y' para atualizar o sistema e instalar versão atualizadas dos arquivos Linux;<br>
-2. Use 'sudo yum install -y amazon-efs-utils' para instalar o pacote do NFS;<br>
-3. Crie um diretório com o comando 'sudo mkdir /mnt/efs', destinado a ser o local para montagem;<br>
-4. Agora, use o comando de montagem que foi fornecido pela AWS: 'sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 [DNS-EFS]:/ [caminho local/diretório]'.<br>
+- Ao entrar na conexão da instância EC2, coloque o comando `sudo su`, que faz ganhar privilégios administrativos: <br>
+1. Use `sudo yum update -y` para atualizar o sistema e instalar versão atualizadas dos arquivos Linux;<br>
+2. Use `sudo yum install -y amazon-efs-utils` para instalar o pacote do NFS;<br>
+3. Crie um diretório com o comando `sudo mkdir /mnt/efs`, destinado a ser o local para montagem;<br>
+4. Agora, use o comando de montagem que foi fornecido pela AWS: `sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 [DNS-EFS]:/ [caminho local/diretório]`.<br>
 
 </ul>
 
