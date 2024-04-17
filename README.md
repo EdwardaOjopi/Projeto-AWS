@@ -3,7 +3,7 @@ Atividade de Linux PB AWS - UNICESUMAR UFOPA <br> </h1>
 <br>
 
 # Descrição
-A atividade tem como objetivo praticar os conceitos abordados ao longo da sprint 1,2,3 e 4. Foram explorados conceitos gerais de Linux, além de comandos praticados no terminal. Também houveram práticas no console da Amazon AWS e outros serviços que este possui. Resumidamente, será criada uma instância EC2 com sistema operacional Amazon Linux 2, além de fornecer acesso público. Também, será realizado alguns pontos dentro do terminal da AWS(CloudShell), envolvendo a criação de script para verificar o status (online/offline) do Apache, e a execução automatizada do scrip deste a cada 5 minutos.
+A atividade tem como objetivo praticar os conceitos abordados ao longo da sprint 1,2,3 e 4. Foram explorados conceitos gerais de Linux, além de comandos praticados no terminal. Também houveram práticas no console da Amazon AWS e outros serviços que este possui. Resumidamente, será criada uma instância EC2 com sistema operacional Amazon Linux 2, além de fornecer acesso público. Também, será realizado alguns pontos dentro do terminal da AWS(CloudShell), envolvendo a criação de script para verificar o status (online/offline) do Apache, e a execução automatizada do script a cada 5 minutos.
 
 # Requisitos para iniciar
 Para ocorrer a execução deste projeto, alguns pontos devem ser abordados.<br>
