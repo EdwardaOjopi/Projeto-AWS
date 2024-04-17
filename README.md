@@ -201,8 +201,7 @@ fi
 Também é pedido para automatizar a execução do script a cada 5 minutos. Para isso, iremos editar o arquivo crontab:<br>
 1. Use o comando <code>EDITOR=nano crontab -e</code>, que irá acessar o arquivo crontab;<br>
 2. Lá dentro, digite a seguinte linha: <pre><code>\*/5 \* \* \* \* /\[caminho de onde está o script/nome do script]</code></pre>, onde o que ficaria desse jeito: <pre><code>*/5 \* \* \* \* /mnt/efs/edwarda/service_status.sh</code></pre><br>
-3. Aperte no ESC e salve digitando <code>:wq</code>;<br>
-4. A seguir, temos as duas figuras que demonstram o serviço online e offline, além dos scripts criados dentro do diretório /mnt/efs/edwarda:
+3. A seguir, temos as duas figuras que demonstram o serviço online e offline, além dos scripts criados dentro do diretório /mnt/efs/edwarda:
 <br>
 <div align="center">
  
